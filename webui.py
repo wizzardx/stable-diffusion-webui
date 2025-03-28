@@ -156,6 +156,7 @@ def webui():
 if __name__ == "__main__":
     from modules.shared_cmd_options import cmd_opts
 
+    print("🧠 Stable Diffusion WebUI: Now featuring cursed meme recursion")
     if cmd_opts.nowebui:
         api_only()
     else:
