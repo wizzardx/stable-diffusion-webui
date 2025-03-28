@@ -1,3 +1,9 @@
+[project]
+name = "sd-webui"
+version = "0.0.1"
+description = "Cursed meme interface for Stable Diffusion"
+requires-python = ">=3.9"
+
 [tool.ruff]
 
 target-version = "py39"
